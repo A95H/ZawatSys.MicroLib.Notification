@@ -5,16 +5,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>ZawatSys.MicroLib.Notification</RootNamespace>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <AssemblyName>ZawatSys.MicroLib.Notification</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ZawatSys.MicroLib.Notification</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>ZawatSys Team</Authors>
+    <Company>ZawatSys</Company>
+    <Product>ZawatSys Notification Domain Library</Product>
+    <Description>Domain library for Notification microservice following DDD and CQRS patterns</Description>
+    <PackageTags>zawatsys;microlib;notification;ddd;cqrs</PackageTags>
+    <RepositoryUrl>https://github.com/A95H/ZawatSys.MicroLib.Notification</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\ZawatSys.MicroLib.Shared\ZawatSys.MicroLib.Shared.csproj" />
+    <PackageReference Include="ZawatSys.MicroLib.Shared" Version="1.0.7" />
   </ItemGroup>
 
 </Project>
