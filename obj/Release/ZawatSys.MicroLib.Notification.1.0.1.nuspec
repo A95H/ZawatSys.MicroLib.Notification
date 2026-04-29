@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ZawatSys.MicroLib.Notification</id>
+    <version>1.0.1</version>
+    <authors>ZawatSys Team</authors>
+    <description>Domain library for Notification microservice following DDD and CQRS patterns</description>
+    <tags>zawatsys microlib notification ddd cqrs</tags>
+    <repository type="git" url="https://github.com/A95H/ZawatSys.MicroLib.Notification" commit="c6f09ba012f2db38fe80d8631dbe216586d0b4c9" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="ZawatSys.MicroLib.Shared" version="1.0.7" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\bin\Release\net10.0\ZawatSys.MicroLib.Notification.dll" target="lib\net10.0\ZawatSys.MicroLib.Notification.dll" />
+  </files>
+</package>

@@ -1,0 +1,11 @@
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\bin\Release\net10.0\ZawatSys.MicroLib.Notification.deps.json
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\bin\Release\net10.0\ZawatSys.MicroLib.Notification.dll
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\bin\Release\net10.0\ZawatSys.MicroLib.Notification.pdb
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\obj\Release\net10.0\ZawatSys.MicroLib.Notification.csproj.AssemblyReference.cache
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\obj\Release\net10.0\ZawatSys.MicroLib.Notification.GeneratedMSBuildEditorConfig.editorconfig
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\obj\Release\net10.0\ZawatSys.MicroLib.Notification.csproj.CoreCompileInputs.cache
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\obj\Release\net10.0\ZawatSys.MicroLib.Notification.sourcelink.json
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\obj\Release\net10.0\ZawatSys.MicroLib.Notification.dll
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\obj\Release\net10.0\refint\ZawatSys.MicroLib.Notification.dll
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\obj\Release\net10.0\ZawatSys.MicroLib.Notification.pdb
+C:\Zawat\Backend\ZawatSys.Notification\ZawatSys.MicroLib.Notification\obj\Release\net10.0\ref\ZawatSys.MicroLib.Notification.dll

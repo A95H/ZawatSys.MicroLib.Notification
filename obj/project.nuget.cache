@@ -1,14 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0IZyoddLZaQ=",
+  "dgSpecHash": "LkaWK5eyU1I=",
   "success": true,
   "projectFilePath": "C:\\Zawat\\Backend\\ZawatSys.Notification\\ZawatSys.MicroLib.Notification\\ZawatSys.MicroLib.Notification.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Super Genius\\.nuget\\packages\\masstransit\\8.3.3\\masstransit.8.3.3.nupkg.sha512",
     "C:\\Users\\Super Genius\\.nuget\\packages\\masstransit.abstractions\\8.3.3\\masstransit.abstractions.8.3.3.nupkg.sha512",
     "C:\\Users\\Super Genius\\.nuget\\packages\\masstransit.rabbitmq\\8.3.3\\masstransit.rabbitmq.8.3.3.nupkg.sha512",
-    "C:\\Users\\Super Genius\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\Super Genius\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Super Genius\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.0\\microsoft.entityframeworkcore.10.0.0.nupkg.sha512",
     "C:\\Users\\Super Genius\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.0\\microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\Super Genius\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.0\\microsoft.entityframeworkcore.analyzers.10.0.0.nupkg.sha512",

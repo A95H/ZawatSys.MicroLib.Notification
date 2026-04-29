@@ -53,38 +53,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Http.Features/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -475,8 +443,7 @@
         }
       },
       "ZawatSys.MicroLib.Shared/1.0.7": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
+        "type": "package",
         "dependencies": {
           "MassTransit.RabbitMQ": "8.3.3",
           "Microsoft.EntityFrameworkCore": "10.0.0",
@@ -486,10 +453,14 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
         },
         "compile": {
-          "bin/placeholder/ZawatSys.MicroLib.Shared.dll": {}
+          "lib/net10.0/ZawatSys.MicroLib.Shared.dll": {
+            "related": ".runtimeconfig.json"
+          }
         },
         "runtime": {
-          "bin/placeholder/ZawatSys.MicroLib.Shared.dll": {}
+          "lib/net10.0/ZawatSys.MicroLib.Shared.dll": {
+            "related": ".runtimeconfig.json"
+          }
         }
       }
     }
@@ -556,32 +527,6 @@
         "masstransit.rabbitmq.8.3.3.nupkg.sha512",
         "masstransit.rabbitmq.nuspec",
         "mt-logo-small.png"
-      ]
-    },
-    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
-      "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
-        "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-        "microsoft.aspnetcore.http.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Http.Features/2.2.0": {
-      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.http.features/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
-        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
-        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore/10.0.0": {
@@ -1178,14 +1123,20 @@
       ]
     },
     "ZawatSys.MicroLib.Shared/1.0.7": {
-      "type": "project",
-      "path": "../../ZawatSys.MicroLib.Shared/ZawatSys.MicroLib.Shared.csproj",
-      "msbuildProject": "../../ZawatSys.MicroLib.Shared/ZawatSys.MicroLib.Shared.csproj"
+      "sha512": "3M+NizcsDzhTn9doTvyufXOD33gltgFVCYW/JJ3EEjZHwldjk2xca+JDcxsXI7/jPqDiGJS+JtMZGWlA8t8SwQ==",
+      "type": "package",
+      "path": "zawatsys.microlib.shared/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net10.0/ZawatSys.MicroLib.Shared.dll",
+        "lib/net10.0/ZawatSys.MicroLib.Shared.runtimeconfig.json",
+        "zawatsys.microlib.shared.1.0.7.nupkg.sha512",
+        "zawatsys.microlib.shared.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "ZawatSys.MicroLib.Shared >= 1.0.7"
     ]
   },
@@ -1194,7 +1145,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "C:\\Zawat\\Backend\\ZawatSys.Notification\\ZawatSys.MicroLib.Notification\\ZawatSys.MicroLib.Notification.csproj",
       "projectName": "ZawatSys.MicroLib.Notification",
@@ -1206,6 +1157,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+        "C:\\Zawat\\Backend\\ZawatSys.Notification\\ZawatSys.MicroLib.Notification\\NuGet.Config",
         "C:\\Users\\Super Genius\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1214,7 +1166,6 @@
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.pkg.github.com/A95H/index.json": {}
@@ -1223,11 +1174,7 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {
-            "C:\\Zawat\\Backend\\ZawatSys.MicroLib.Shared\\ZawatSys.MicroLib.Shared.csproj": {
-              "projectPath": "C:\\Zawat\\Backend\\ZawatSys.MicroLib.Shared\\ZawatSys.MicroLib.Shared.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -1247,9 +1194,9 @@
         "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Abstractions": {
+          "ZawatSys.MicroLib.Shared": {
             "target": "Package",
-            "version": "[2.2.0, )"
+            "version": "[1.0.7, )"
           }
         },
         "imports": [

@@ -4,6 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <RootNamespace>ZawatSys.MicroLib.Notification</RootNamespace>
     <AssemblyName>ZawatSys.MicroLib.Notification</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
