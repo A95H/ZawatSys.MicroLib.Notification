@@ -19,7 +19,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ZawatSys.MicroLib.Shared\ZawatSys.MicroLib.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ZawatSys.MicroLib.Shared" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
