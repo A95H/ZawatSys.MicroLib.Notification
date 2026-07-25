@@ -9,7 +9,7 @@
     <AssemblyName>ZawatSys.MicroLib.Notification</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>ZawatSys.MicroLib.Notification</PackageId>
-    <Version>1.0.1</Version>
+    <Version>2.0.0</Version>
     <Authors>ZawatSys Team</Authors>
     <Company>ZawatSys</Company>
     <Product>ZawatSys Notification Domain Library</Product>
@@ -19,7 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ZawatSys.MicroLib.Shared" Version="1.0.7" />
+    <ProjectReference Include="..\..\ZawatSys.MicroLib.Shared\ZawatSys.MicroLib.Shared.csproj" />
   </ItemGroup>
 
 </Project>

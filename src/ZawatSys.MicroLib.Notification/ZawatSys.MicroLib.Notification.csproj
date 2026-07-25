@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ZawatSys.MicroLib.Shared" Version="1.0.7" />
+    <ProjectReference Include="..\..\ZawatSys.MicroLib.Shared\ZawatSys.MicroLib.Shared.csproj" />
   </ItemGroup>
 
 </Project>
